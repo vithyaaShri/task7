@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ /* This styles the header part of the page */
+ .one{
+   margin: 30px;
+   margin-bottom: 20px;
+   padding: 30px;
+   padding-bottom: 20px;
+   display: grid;
+   height: 100vh;
+    place-items: center;  
+  color: blue;
+
+ }
+ /* This styles the header part p tag of the page */
+ .one p{
+   margin: 0;
+   padding: 0;
+   display: grid;
+   height: 100vh;
+    place-items: top;  
+  color: blue;
+ }
+ /* This styles the header part h1 tag of the page */
+ .one h1{
+   padding-bottom: 10px;
+ }
+ /* This styles the body part of the page */
+ body{
+    background:linear-gradient(to bottom,black,grey,blue);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ /* This styles the main parent div of the page */
+ .button1{
+    width: 400px;
+    height: 450px;
+    background-color:wheat;
+    position: absolute;
+    border: 5px solid brown;
+    border-radius: 20px; 
+    padding-top: 20px;
+    margin-top: 20px;
+ }
+ /* Display nutton styling */
+ .button1 input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 2px solid brown;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    color: black;
+ }
+ /* Each Button style */
+ .btn button[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background:linear-gradient(to top,brown,white,brown);
+    border-radius: 50px;
+    color: black;
+ }
+ /* When button is hovered following function get applied*/
+ .button1 .btn .bt:hover{
+    background:linear-gradient(to top,black,grey,black);
+    color: white;
+ }
